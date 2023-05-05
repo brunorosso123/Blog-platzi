@@ -59,7 +59,8 @@ nav .nav-derecho{
     align-items: center;
     flex-wrap: nowrap;
     margin-right: 20px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    font-family: 'Bruno Ace SC', cursive;
 }
 /* --------------------------------------- body ------------------------------------- */
 main section{
@@ -77,10 +78,11 @@ main section  .main-container{
 }
 main section  .main-container h1{
     font-size: 2rem;
+    font-family: 'Bruno Ace SC', cursive;
     color: azure;
-    margin-top: 50px;
+    margin-top: 60px;
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 110px;
 }
 main section .main-button{
     display: flex;
@@ -95,7 +97,8 @@ main section .main-button{
     border-radius: 5px;
 }
 main section .main-button p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Bruno Ace SC', cursive;
     font-weight: 700;
     color: rgb(24, 22, 22);
     

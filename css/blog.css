@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pointer{
+    cursor: pointer;
+}
+/* --------------------------------------- header ------------------------------------- */
+header{
+    width: 100%;
+    min-width: 280px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+}
+header  .main-header{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: rgb(83, 212, 169);
+
+}
+header  .main-header .redes-header{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+} 
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+nav .nav-logo img{
+    width: 180px;
+}
+nav .nav-derecho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+    font-size: 0.9rem;
+    font-family: 'Bruno Ace SC', cursive;
+}
+/* --------------------------------------- main ------------------------------------- */
+main{
+    width: 100%;
+    height: auto;
+    min-width: 280px;
+}
+/* --------------------------------------- seccion 1 ------------------------------------- */
+main .primer-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: end;
+    align-content: space-evenly;
+    align-items: stretch;
+    justify-items: end;
+    gap: 15px;
+    padding: 10px;
+    background-color: rgb(204, 199, 199);
+}
+main .primer-section .section-uno-flexbox{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+}
+main .section-uno-flexbox img{
+    width: 100%;
+    height: 90%;
+}
+main .section-uno-flexbox h6{
+    font-size: 1rem;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+main .section-dos-flexbox{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main .section-dos-flexbox h2{
+    font-size: 1.1rem;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+main .section-dos-flexbox .section-dos-button{
+    font-size: 0.6rem;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+    margin-top: 10px;
+    border: 1px solid rgb(43, 190, 216);
+    text-align: center;
+    padding: 5px;
+}
+/* --------------------------------------- seccion 2 ------------------------------------- */
+main .cards-main{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-bottom: 10px;
+    margin: 0 auto;
+    gap: 5px;
+}
+main .cards-main .cards-flexbox{
+    display: flex;
+    flex-direction: column;
+}
+main .cards-main .cards-flexbox img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+main .cards-main .cards-flexbox h6{
+    font-size: 0.6rem;
+    font-family: 'Bruno Ace SC', cursive;
+    margin-bottom: 8px;
+}
+main .cards-main .cards-flexbox p{
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+main .cards-main .cards-flexbox .cards-button{
+    width: 40%;
+    font-size: 0.6rem;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+    border: 1px solid rgb(43, 190, 216);
+    text-align: center;
+    padding: 5px;
+}
+main .titulo-intermedio{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.5rem;
+    font-family: 'Bruno Ace SC', cursive;
+}
+main .titulo-intermedio .linea{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(129, 127, 127);
+    margin-top: 10px;
+}
+/* --------------------------------------- footer ------------------------------------- */
+footer{
+    display: grid;
+    grid-template-rows: 15px 30px;
+    margin-top: 20px;
+}
+footer .color-uno{
+    background-color: rgb(83, 212, 169);
+}
+footer .color-dos{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 1, 1);
+    color: rgb(204, 219, 219);
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pointer{
+    cursor: pointer;
+}
+/* --------------------------------------- header ------------------------------------- */
+header{
+    width: 100%;
+    min-width: 280px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+}
+header  .main-header{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: rgb(83, 212, 169);
+
+}
+header  .main-header .redes-header{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+} 
+nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+nav .nav-logo img{
+    width: 180px;
+}
+nav .nav-derecho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+    font-size: 0.9rem;
+    font-family: 'Bruno Ace SC', cursive;
+}
+/* --------------------------------------- main ------------------------------------- */
+main{
+    width: 100%;
+    height: auto;
+    min-width: 280px;
+}
+
+/* --------------------------------------- seccion tres parte del contacto ------------------------------------- */
+main .contacto-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(151, 149, 149);
+}
+main .contacto-grid .contacto-grid-izquierdo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+main .imgg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+main .contacto-grid .contacto-grid-izquierdo span{
+    background: url('/assets/img/013-newsletter.png') center/cover no-repeat;
+    width: 40px;
+    height: 40px;
+}
+main .texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+main .texto a{
+    font-size: 1.2rem;
+    font-family: 'Bruno Ace SC', cursive;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+main .texto p{
+    font-size: 0.9rem;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+main .contacto-grid .contacto-grid-derecho{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    width: 80%;
+}
+main .imggg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+main .contacto-grid .contacto-grid-derecho span{
+    background: url('/assets/img/006-like.png') center/cover no-repeat;
+    width: 40px;
+    height: 40px;
+}
+/* --------------------------------------- footer ------------------------------------- */
+footer{
+    display: grid;
+    grid-template-rows: 15px 30px;
+}
+footer .color-uno{
+    background-color: rgb(83, 212, 169);
+}
+footer .color-dos{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 1, 1);
+    color: rgb(204, 219, 219);
+}

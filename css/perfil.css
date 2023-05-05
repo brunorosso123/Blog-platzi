@@ -60,6 +60,65 @@ main{
     height: auto;
     min-width: 280px;
 }
+/* --------------------------------------- seccion uno parte del perfil------------------------------------- */
+main .presentacion-fondo{
+    background-color:rgb(151, 149, 149);
+    padding: 20px 35px 20px 35px;
+}
+main .presentacion-fondo .presentacion-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+main .presentacion-fondo .presentacion-grid span{
+    width: 100%;
+    min-height: 100px;
+    background: url("/assets/img/profile-pic.jpg") center/cover no-repeat;
+}
+main .presentacion-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+main .presentacion-texto h3{
+    font-size: 1.2rem;
+    font-family: 'Bruno Ace SC', cursive;
+    padding-bottom: 5px;
+}
+/* --------------------------------------- titulo del medio ------------------------------------- */
+main .titulon{
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* --------------------------------------- seccion dos mid datos personales ------------------------------------- */
+main .mid-texto{
+    width: 100%;
+    height: auto;
+}
+main .mid-texto .mid-texto--grid{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(151, 149, 149);
+}
+main .mid-texto--grid .tex h5{
+    font-size: 0.8rem;
+    font-family: 'Bruno Ace SC', cursive;
+    padding-bottom: 5px;
+}
+main .mid-texto--grid .tex p{
+    font-size: 0.9rem;
+}
 
 /* --------------------------------------- seccion tres parte del contacto ------------------------------------- */
 main .contacto-grid{
